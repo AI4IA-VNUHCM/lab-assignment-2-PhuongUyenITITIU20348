@@ -10,11 +10,9 @@ ______________________________________
 #include <stdlib.h>
 #include <math.h>
 
-int main(int argc, char *argv[]) {
-	//testing variable, applying it to your algorithm for auto-evaluating
-	int testcase = atoi(argv[1]);
+int main () {
 	
-	//Your codes here
+	
 	
 	
 	return 0;
