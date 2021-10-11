@@ -11,7 +11,22 @@ ______________________________________
 #include <math.h>
 
 int main () {
-	
+	int n;
+	int a = 0;
+	printf("n: ");
+	scanf("%d", &n);
+	if (n == 0 || n == 1) {
+		printf("%d", n);
+	}
+	else {
+		for (int i = 2; i <= n; i++) {
+			while (n % i == 0) {
+				printf("%d", i);
+				n /= i;
+			}
+		}
+	}				
+ 
 	
 	
 	
