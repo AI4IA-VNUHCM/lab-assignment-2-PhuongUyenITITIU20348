@@ -19,18 +19,8 @@ int main () {
 	printf("Enter number: ");
 	scanf("%d", &num);
 	int factorial = 1;
-	if (num %2 == 0) {
-		for (int i = 2; i <= num; i+=2) {
-			factorial *= i;
-		}
-	}
-	else {
-		for (int i = 1; i <= num; i+=2) {
-			factorial *= i;
-		}
-	}				
 
 	
-	printf("%d", factorial);
+	printf("%d", result);
 	return 0;
 }
