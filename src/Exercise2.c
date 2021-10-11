@@ -14,13 +14,19 @@ ______________________________________
 #include <stdlib.h>
 #include <math.h>
 
-int main () {
-	int num;
-	printf("Enter number: ");
-	scanf("%d", &num);
-	int factorial = 1;
+int main(int argc, char *argv[]){
+    int num = atoi(argv[1]);
+    int total = 1;
 
-	
-	printf("%d", result);
-	return 0;
+    if (num > 0){
+        int i = num % 2 == 0 ? 2 : 1;
+        while(i <= num){
+            total *= i;
+            i += 2;
+        }
+    }
+
+    printf("%d",total);
+    return 0;
 }
+
