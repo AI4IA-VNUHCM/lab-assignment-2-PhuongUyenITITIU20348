@@ -14,11 +14,12 @@ ______________________________________
 #include <stdlib.h>
 #include <math.h>
 
-int main(int argc, char *argv[]) {
-	//testing variable, applying it to your algorithm for auto-evaluating
-	int n = atoi(argv[1]);
-	int result;
-	//Your codes here
+int main () {
+	int num;
+	printf("Enter number: ");
+	scanf("%d", &num);
+	int factorial = 1;
+
 	
 	printf("%d", result);
 	return 0;
